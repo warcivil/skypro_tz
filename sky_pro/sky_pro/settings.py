@@ -1,3 +1,4 @@
+# flake8: noqa
 from pathlib import Path
 from decouple import config
 
