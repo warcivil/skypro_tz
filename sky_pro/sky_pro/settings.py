@@ -7,6 +7,7 @@ SECRET_KEY = 'django-insecure-6h)+6peg7zs^5q=yl7cvf@=3nc7(j^kz!@x(*c73hbhxij1z3u
 DEBUG = True
 
 ALLOWED_HOSTS = []
+LOGIN_URL = 'login'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -16,6 +17,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sky_api',
+    'users',
 ]
 
 MIDDLEWARE = [

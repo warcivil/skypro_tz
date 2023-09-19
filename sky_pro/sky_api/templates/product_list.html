@@ -11,6 +11,8 @@
         <th>Категория</th>
         <th>Статус активности</th>
         <th>Цена</th>
+        <th>Количество заказов за прошлый месяц</th>
+        <th>Количество заказов за текущий месяц</th>
       </tr>
     </thead>
     <tbody>
@@ -21,15 +23,11 @@
         <td>{{ product.category }}</td>
         <td>{{ product.is_active }}</td>
         <td>{{ product.price }}</td>
+        <td>{{ product.orders_last_month }}</td>
+        <td>{{ product.orders_current_month }}</td>
       </tr>
       {% endfor %}
     </tbody>
   </table>
-</div>
-
-<div class="container mt-4">
-  <h2>Количество заказов:</h2>
-  <p>За прошлый месяц: {{ products.0.orders_last_month }}</p>
-  <p>За текущий месяц: {{ products.0.orders_current_month }}</p>
 </div>
 {% endblock %}
