@@ -1,0 +1,92 @@
+[
+    {
+        "model": "sky_api.product",
+        "pk": 3,
+        "fields": {
+            "name": "Хлеб",
+            "category": "Продукты питания",
+            "is_active": true,
+            "price": 2.99
+        }
+    },
+    {
+        "model": "sky_api.product",
+        "pk": 4,
+        "fields": {
+            "name": "Молоко",
+            "category": "Продукты питания",
+            "is_active": true,
+            "price": 1.99
+        }
+    },
+    {
+        "model": "sky_api.product",
+        "pk": 5,
+        "fields": {
+            "name": "Шампунь",
+            "category": "Красота и уход",
+            "is_active": true,
+            "price": 5.49
+        }
+    },
+    {
+        "model": "sky_api.product",
+        "pk": 6,
+        "fields": {
+            "name": "Футбольный мяч",
+            "category": "Спорт и активный отдых",
+            "is_active": true,
+            "price": 19.99
+        }
+    },
+    {
+        "model": "sky_api.product",
+        "pk": 7,
+        "fields": {
+            "name": "Ноутбук",
+            "category": "Электроника",
+            "is_active": true,
+            "price": 699.99
+        }
+    },
+    {
+        "model": "sky_api.order",
+        "pk": 4,
+        "fields": {
+            "product": 3,
+            "order_date": "2023-08-20T14:30:00Z"
+        }
+    },
+    {
+        "model": "sky_api.order",
+        "pk": 5,
+        "fields": {
+            "product": 4,
+            "order_date": "2023-08-21T10:15:00Z"
+        }
+    },
+    {
+        "model": "sky_api.order",
+        "pk": 6,
+        "fields": {
+            "product": 5,
+            "order_date": "2023-08-22T16:45:00Z"
+        }
+    },
+    {
+        "model": "sky_api.order",
+        "pk": 7,
+        "fields": {
+            "product": 6,
+            "order_date": "2023-08-23T08:00:00Z"
+        }
+    },
+    {
+        "model": "sky_api.order",
+        "pk": 8,
+        "fields": {
+            "product": 7,
+            "order_date": "2023-08-24T19:30:00Z"
+        }
+    }
+]
