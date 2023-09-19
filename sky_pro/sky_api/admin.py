@@ -4,7 +4,8 @@ from .models import Product, Order
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'category', 'is_active', 'price')
+    list_display = ('id', 'name',
+                    'category', 'is_active', 'price')
 
 
 @admin.register(Order)
